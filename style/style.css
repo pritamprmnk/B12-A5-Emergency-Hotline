@@ -1,6 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
 
+.hind-madurai-bold {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.hind-madurai-regular {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .work-sans {
   font-family: "Work Sans", sans-serif;
@@ -29,25 +39,25 @@
 .navbar-left {
     display: flex;
     align-items: center;
-    color: #1a4d2e; /* Dark green for the text */
+    color: #1a4d2e;
     font-weight: bold;
 }
 
 .logo {
-    width: 30px; /* Make the logo slightly smaller */
+    width: 30px;
     margin-right: 10px;
 }
 
 .navbar-right {
     display: flex;
     align-items: center;
-    gap: 10px; /* Spacing between the items */
+    gap: 10px;
 }
 
 .stat-item {
     display: flex;
     align-items: center;
-    background-color: #f0fdf4; /* Very light green background */
+    background-color: #f0fdf4;
     padding: 5px 15px;
     border-radius: 20px;
     font-weight: bold;
@@ -55,7 +65,7 @@
 
 
 .green-button {
-    background-color: #00A63E; /* Bright green button color */
+    background-color: #00A63E;
     color: #fff;
     border: none;
     padding: 8px 15px;
@@ -68,6 +78,31 @@
     gap: 5px;
 }
 
+/* --- Banner Section --- */
 
-/* banner sec */
+.banner-section {
+    background-color: rgba(0, 103, 71, 1);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 0;
+}
 
+.govt-logo {
+
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.banner-subtitle {
+    font-size: 1.25em;
+    font-style: italic;
+    color: #FFFFFF;
+    margin: 10px 0 0 0;
+}
