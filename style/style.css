@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* --- Navbar --- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 0; 
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.stat-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    color: #1a4d2e; /* Dark green for the text */
+    font-weight: bold;
+}
+
+.logo {
+    width: 30px; /* Make the logo slightly smaller */
+    margin-right: 10px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Spacing between the items */
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    background-color: #f0fdf4; /* Very light green background */
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+.green-button {
+    background-color: #00A63E; /* Bright green button color */
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* banner sec */
+
